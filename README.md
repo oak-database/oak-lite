@@ -6,7 +6,7 @@
 [![Dependency Status](https://david-dm.org/oak-database/oak-lite/status.svg)](https://david-dm.org/oak-database/oak-lite)
 [![devDependency Status](https://david-dm.org/oak-database/oak-lite/dev-status.svg)](https://david-dm.org/oak-database/oak-lite?type=dev)
 
-Oak-Lite is a lightweight version of Oak, a write-only database with a publish-subscribe model.
+Oak-Lite is a lightweight version of Oak, an append-only database with a publish-subscribe model.
 
 ## Getting Started
 

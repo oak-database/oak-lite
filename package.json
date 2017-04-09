@@ -1,6 +1,6 @@
 {
   "name": "oak-lite",
-  "description": "A lightweight version of Oak, a write-only database with a publish-subscribe model",
+  "description": "A lightweight version of Oak, an append-only database with a publish-subscribe model",
   "version": "1.0.0",
   "author": "Trevin Hofmann <trevinhofmann@gmail.com>",
   "scripts": {
