@@ -7,9 +7,9 @@
 
 ### Versions
 
-`oak-lite` version: *can be found with `npm list oak-lite`]*
-Node.js version: *can be found with `node -v`]*
-NPM version: *can be found with `npm -v`]*
+`oak-lite` version: *can be found with `npm list oak-lite`*
+Node.js version: *can be found with `node -v`*
+NPM version: *can be found with `npm -v`*
 
 ### Can the issue be reliably reproduced?
 
