@@ -23,7 +23,6 @@
     "lite",
     "database",
     "append-only",
-    "write-only",
     "pubsub"
   ],
   "engines": {
