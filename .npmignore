@@ -1,6 +1,7 @@
 src
 test
 docs
+.dist/**/*.map
 .test
 .babelrc
 .editorconfig
