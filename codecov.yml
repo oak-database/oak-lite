@@ -1,0 +1,12 @@
+comment:
+  layout: "header, diff, changes"
+  require_changes: true
+
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+
+fixes:
+  - ".dist/::src/"

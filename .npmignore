@@ -1,0 +1,17 @@
+src
+test
+docs
+.test
+.babelrc
+.editorconfig
+.eslintrc.json
+.gitignore
+.github
+.npmignore
+.nycrc
+.nyc_output
+.travis.yml
+coverage.lcov
+codecov.yml
+Gruntfile.js
+CONTRIBUTING.md

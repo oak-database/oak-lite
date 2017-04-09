@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+- node
+- '7'
+- '6'
+- '5'
+- '4'
+install:
+- npm install
+script:
+- npm run coverage
+after_success:
+- bash <(curl -s https://codecov.io/bash)
+deploy:
+  provider: npm
+  email: trevinhofmann@gmail.com
+  on:
+    tags: true
+    node: '6'
+  api_key:
+    secure: ZkMj4rI2u18XVJWHjIpM2FaCqFQA53vW77ziQau8+yMSt95LFIGXaElabJaqXktqgXrXVXOOB65ACK0gOk60HpdkYsW1maFrOFjyWOXXKlq4KMb/euswohEH+1d7LM42m8SkRqdmHi9kvE7kWXeEGrBWHhVRRy3RVovPjmkWvkcOWDQ2fiYydTUWrgWa4cC5RVcONEsS8EB0rTFktbMcnoa16gWoZzrRQHsHiPcHHeqVV1ps41h9MQODAYEqTrRiYTR+BT69qyUuLJ4BLR6COVxTcNjc1DwejZG9hIUqvKYjVliismIu06G6Xf3pGBbSvHfvzqT4W/OZoaAHqQd1Dv/IGTtJ/KBkDrYfhPl3xuZI48t3S4641/FDFc32HBo9UCDoHCNNYWaxrdFeZ5WDBkOg6KVU9zD6nAZz3XYfCQCU7ZP2/WJKx7Oy1ILnH999vF2Row2/vVVXklMs5xmpPwxQv7j7w/R07VDECW1Fqs95RKJlxF3igCBd+vJhu/q+aFYD+V4ferUkdNNPLUqBseOGYhE5AEp0wnrqEw+Ryift7KRBjDNASByxNOThj8h4JUAaJpfvXuEptCstS7WslrJpfxpGNEaPqBq9wModK4hjboHSo7QiYm5L6SZyV7Ri6rQc3yo7PbypDljwmcLUMSP66eRspVtDMkq8xpMep/k=

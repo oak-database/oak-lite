@@ -1,0 +1,51 @@
+{
+  "name": "oak-lite",
+  "description": "A lightweight version of Oak, a write-only database with a publish-subscribe model",
+  "version": "1.0.0-alpha.1",
+  "author": "Trevin Hofmann <trevinhofmann@gmail.com>",
+  "scripts": {
+    "build": "grunt build",
+    "coverage": "cross-env NODE_ENV=test BABEL_ENV=test nyc npm test && nyc report --reporter=text-lcov > coverage.lcov",
+    "lint": "grunt lint",
+    "prepublish": "grunt prepublish",
+    "test": "grunt test"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oak-database/oak-lite"
+  },
+  "bugs": {
+    "url": "https://github.com/oak-database/oak-lite/issues"
+  },
+  "keywords": [
+    "oak",
+    "lite",
+    "database",
+    "append-only",
+    "write-only",
+    "pubsub"
+  ],
+  "engines": {
+    "node": "4.x || 5.x || 6.x || 7.x"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-istanbul": "^3.0.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "cross-env": "^3.1.3",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-eslint": "^19.0.0",
+    "grunt-mocha-cli": "^3.0.0",
+    "nyc": "^10.0.0"
+  },
+  "dependencies": {
+    "oak-barrel": "^1.0.1",
+    "oak-meta": "^1.0.0"
+  }
+}
